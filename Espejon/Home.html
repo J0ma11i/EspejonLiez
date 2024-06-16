@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(24, 23, 23, 0.6);
+    border-bottom: 1px solid #000000;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: rgb(0,0,0,0.7);
+    border-radius: 6px;
+}
+
+body{
+    margin: 230px;
+    font-family: 'Times New Roman';
+    background: url(bck1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 37px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 30px;
+}
+.text:hover{
+    box-shadow: 2px 2px 30px rgb(255, 255, 255);
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href ="Home.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        <h1>EAT'S TAURANT</h1>
+        <h3>&dash;EAT ALL YOU WANT AS LONG AS YOU HAVE MONEY!!!&dash;</h3>
+    </div>
+</body>
+</html>
